@@ -24686,7 +24686,7 @@ kf8PTTdNG6dCHDMAAAAASUVORK5CYII=
 -- right : 1.66
 -- None : 0.46
 -- left : -4.94</p>
-<p>Here the we need to go right and the light is red. Since there is no oncoming traffic going towards right as per the optimal policy we can go right.The Learner has learned this policy correctly as the max Q value is assigned to the state 'right'.</p>
+<p>Here the we need to go right and the light is red. Since there is no oncoming or the left traffic going towards car's right as per the optimal policy we can go right.The Learner has learned this policy correctly as the max Q value is assigned to the state 'right'.</p>
 </li>
 </ul>
 <ul>
@@ -24695,7 +24695,7 @@ kf8PTTdNG6dCHDMAAAAASUVORK5CYII=
 -- right : 0.58
 -- None : -4.91
 -- left : 0.81</p>
-<p>Here the we need to go forward and the light is green. Since there is no oncoming traffic going towards left as per the optimal policy we can go forward.The Learner has learned this policy correctly as the max Q value is assigned to the state 'forward'.</p>
+<p>Here the we need to go forward and the light is green. Since the agent has the right of way as per the optimal policy we can go forward.The Learner has learned this policy correctly as the max Q value is assigned to the state 'forward'.</p>
 </li>
 </ul>
 </li>
@@ -24708,7 +24708,7 @@ kf8PTTdNG6dCHDMAAAAASUVORK5CYII=
 -- right : 1.38
 -- None : -3.58
 -- left : -18.76</p>
-<p>Here we need to go left and the light is green and also there is no oncmoing traffic in this direction. Hence as per the optimal policy we should go left however the Learner has assigned max Q value to 'right' and hence it is incorrect. Altough this might not result in an accident but this will take us further away from our destination.</p>
+<p>Here we need to go left and the light is green. Since the oncoming traffic is turning right, as per the optimal policy we should go forward however the Learner has assigned max Q value to 'right' and hence it is incorrect. Altough this might not result in an accident but this will take us further away from our destination.</p>
 </li>
 </ul>
 </li>
